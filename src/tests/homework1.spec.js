@@ -1,6 +1,6 @@
 import { test } from "@playwright/test";
 
-test ("Open registration page", async ({page}) => {
+test ("Open registration page - homework 1", async ({page}) => {
 await page.goto("/registrace");
 console.log("Check: I am on registration page.");
 console.log(await page.title());
